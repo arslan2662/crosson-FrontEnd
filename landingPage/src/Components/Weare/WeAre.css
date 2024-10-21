@@ -1,0 +1,92 @@
+.weAre {
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+
+.weAre .left {
+    width: 50%;
+    display: grid;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+.weAre .left h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.weAre .left p {
+    font-size: 1rem;
+    margin: 10px 0px;
+}
+
+span {
+    border-bottom: 5px solid #ffd907;
+}
+
+.head {
+    color: gray;
+    text-align: left;
+    font-size: 1rem;
+}
+
+.weAreBnts {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.weAreBnts a {
+    color: black;
+    text-decoration: none;
+    border-bottom: 1px solid black;
+    hover: blue;
+}
+
+
+.btn {
+    height: 35px;
+    width: 130px;
+    background-color: #ffd907;
+    color: black;
+    border: none;
+    outline: none;
+    margin-right: 10px;
+    transition: color 0.3s ease-in-out;
+}
+
+.right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    margin: 20px 0px;
+}
+
+.right .box h3 {
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.right .box img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}

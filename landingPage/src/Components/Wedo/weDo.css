@@ -1,0 +1,203 @@
+.weDo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 0px 40px;
+    margin-bottom: 40px;
+    height: 850px;
+}
+
+.doOne {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.doOne::before {
+    content: "";
+    background: url("./wedoImg/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 450px;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.Oneup {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.upLeft {
+    width: 50%;
+}
+
+.upLeft h2 {
+    font-size: 2.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.upRight {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upRight img {
+    margin-right: 10px;
+}
+
+.OneDown {
+    display: flex;
+    margin-top: 70px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.OneDown .box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    margin: 0px 10px;
+}
+
+
+.OneDown .box:nth-child(1) {
+    background-color: white;
+}
+
+.OneDown .box h3 {
+    text-align: center;
+    margin-top: 5px;
+}
+
+/* do two */
+
+.doTwo {
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.TwoLeft {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.TwoLeft h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.TwoLeft p {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.TwoLeft img {
+    height: 150px;
+    width: 150px;
+}
+
+.TwoLeft span {
+    color: rgb(8, 81, 164);
+    border: none;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.boxes h4 {
+    font-weight: 300;
+    margin-top: 10px;
+
+}
+
+.TwoRight {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.TwoUp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(248, 243, 243);
+}
+
+.TwoUp h4 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.TwoUp img {
+    height: 50px;
+    width: 50px;
+    margin-left: 20px;
+}
+
+.TwoDown {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+.TwoDown h3 {
+    margin: 15px 0px;
+}
+
+.twoBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.twoBox img {
+    height: 20px;
+    width: 20px;
+    margin: 0px 7px;
+    cursor: pointer;
+}
+
+.help p {
+    font-size: 13px;
+    margin: 1px 0px;
+    color: black;
+}
+
+.logo img {
+    height: 40px;
+    cursor: pointer;
+}

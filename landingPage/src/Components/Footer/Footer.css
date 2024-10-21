@@ -1,0 +1,168 @@
+.footer {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+
+.upperFoot {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    height: 120px;
+    margin-top: 20px;
+}
+
+.upperLeft h3 {
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: left;
+    margin: 5px 0px;
+}
+
+.upperLeft {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+.upperRight {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+.upperBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.upperBox img {
+    height: 30px;
+    width: 30px;
+    margin: 0px 7px;
+    cursor: pointer;
+}
+
+.help p {
+    font-size: 20px;
+    margin: 1px 0px;
+    color: black;
+}
+
+
+
+.midFoot {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 200px;
+    width: 80%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.midBox1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    
+}
+
+.midBox1 h2 {
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 10px;
+   
+}
+
+.midBox1 li {
+    list-style: none;
+    margin: 5px 0px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    hover: blue;
+    transition: background-color 0.3s ease;
+}
+
+
+.midBox2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    hover: blue;
+    transition: background-color 0.3s ease;
+}
+
+.midBox2 img {
+    height: 50px;
+    width: 50px;
+    margin: 0px 7px;
+    cursor: pointer;
+}
+
+.help p {
+    width: 150px;
+    font-size: 13px;
+    margin: 1px 0px;
+    border-bottom: 1px black;
+}
+
+.help h2 {
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 40px;
+}
+
+.footCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footBtn {
+    height: 35px;
+    width: 120px;
+    background-color: #ffd907;
+    color: black;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.lowerFoot {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.footer hr {
+    width: 90%;
+    border: 1px solid #ddd;
+    margin: 20px 0;
+
+}
+.upperBox a{
+    color: black;
+    text-decoration: none;
+    border-bottom: 2px solid black;
+}
+

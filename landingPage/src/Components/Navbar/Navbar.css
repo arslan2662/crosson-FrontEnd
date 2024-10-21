@@ -1,0 +1,80 @@
+.navbar {
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar .upper {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.logoleft {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoleft img {
+    height: 20px;
+    width: 20px;
+    margin: 0px 7px;
+    cursor: pointer;
+}
+
+.help p {
+    font-size: 13px;
+    margin: 1px 0px;
+    color: black;
+}
+
+.logo img {
+    height: 40px;
+    cursor: pointer;
+}
+
+.logoright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoright img {
+    height: 15px;
+    width: 15px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.navbar .lower {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.navlinks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.lower ul li a {
+    color: black;
+    text-decoration: none;
+    margin: 0px 12px;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.lower ul li a:hover {
+    color: blue;
+    text-decoration: underline;
+}
